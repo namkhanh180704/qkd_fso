@@ -70,7 +70,7 @@ TRNG ×3 → Alice → OOK TX → PWM → Gamma-Gamma Emulator → OOK RX → Bo
 │   └── bb84_phase2.sdc         # Timing constraints (false paths for TRNG ROs)
 │
 ├── python/                     # Measurement and visualization scripts
-│   ├── bb84_qber_curve.py      # QBER vs SNR curves (FPGA or simulation)
+│   ├── bb84_fpga_qber_snr_5_level.py      # QBER vs SNR curves (FPGA or simulation)
 │   ├── bb84_table2.py          # Aggregate Table II data collection
 │   ├── bb84_timing.py          # FPGA vs MATLAB timing comparison
 │   └── regen_paper_figs.py     # Generate all paper figures
