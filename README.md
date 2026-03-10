@@ -119,14 +119,14 @@ Hardware implementation of the two-scale multiplicative fading model `I = X · Y
 4. Connect RS-232 and run:
 
 ```bash
-python python/bb84_qber_curve.py --port COM28 --level 3 --batch 5000
+python python/bb84_fpga_qber_snr_5_level.py --port COM28 --level 3 --batch 5000
 ```
 
 ### Run Simulation (no hardware needed)
 
 ```bash
 # QBER vs SNR curves for all turbulence levels
-python python/bb84_qber_curve.py --simulate --level all --batch 5000
+python python/bb84_fpga_qber_snr_5_level.py --simulate --level all --batch 5000
 
 # Aggregate performance table (Table II)
 python python/bb84_table2.py --simulate --batch 5000
