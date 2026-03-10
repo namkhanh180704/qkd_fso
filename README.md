@@ -178,25 +178,7 @@ set_false_path -from [get_keepers {*trng_core*ro*_chain*}]
 
 After applying constraints: Setup Slack = +4.312 ns, Fmax = 63.74 MHz.
 
-## Citation
-
-```bibtex
-@inproceedings{duong2026fpga_adaptive_qkd,
-  title     = {FPGA-Based Real-Time Optimization of Photon Intensity and 
-               Basis Bias for Adaptive Quantum Key Distribution over 
-               Gamma--Gamma FSO Channels},
-  author    = {Duong, Nam Khanh and Han, Huy Dung and Phuong, Xuan Quang 
-               and Ha, Duyen Trung},
-  booktitle = {Proc. IEEE International Conference},
-  year      = {2026},
-  note      = {Funded by HUST project T2025-PC-068}
-}
-```
 
 ## License
 
 This project is developed at Hanoi University of Science and Technology (HUST) under project T2025-PC-068. Please contact the authors for licensing information.
-
-## Acknowledgments
-
-The authors thank the School of Electrical and Electronic Engineering, HUST, for providing laboratory facilities and FPGA development boards.
