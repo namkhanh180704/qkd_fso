@@ -2,16 +2,6 @@
 
 Real-time optimization of photon intensity and basis bias for Quantum Key Distribution over turbulent free-space optical links, implemented on Altera Cyclone II FPGA.
 
-> **Paper:** *FPGA-Based Real-Time Optimization of Photon Intensity and Basis Bias for Adaptive Quantum Key Distribution over Gamma–Gamma FSO Channels*
->
-> **Authors:** Nam Khanh Duong, Huy Dung Han, Xuan Quang Phuong, Duyen Trung Ha*
->
-> **Affiliation:** School of Electrical and Electronic Engineering, Hanoi University of Science and Technology (HUST)
->
-> **Funding:** HUST project T2025-PC-068
-
----
-
 ## Overview
 
 This project implements a complete BB84 QKD system on FPGA with a closed-loop adaptive controller that dynamically adjusts transmission parameters in response to atmospheric turbulence. The system includes an on-chip Gamma–Gamma channel emulator for real-time testing without optical hardware.
